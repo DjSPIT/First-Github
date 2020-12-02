@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+	<title>Tip-Calculator</title>
+</head>
+<body>
+
+	<div id="tip-container">
+  <h1>Tip Calculator</h1>
+  <div id="calculator">
+
+
+    <form>
+      <p>Bill Amount<p>
+          Rs. <input id="bill_value" type="text" placeholder="Type your amount here...">
+		<p>How was your service?<p>
+        <select id="quality">
+            <option disabled selected value ="0">--Choose--</option>
+            <option value="0.2">20% Excellent</option>
+            <option value="0.15">15% Good</option>
+            <option value="0.1" >10% Bad</option>
+            <option value="0.05">5% Terrible</option>
+        </select>
+
+    </form>
+
+    <p>How many people are paying?</p>
+    <input id="no_ppl" type="text" placeholder="Total people...">
+    <button type="button" id="calculate">CALCULATE</button>
+
+  </div>
+  <!--calculator end-->
+  <div id="totalTip">
+  TIP AMOUNT<br>
+	Rs <span id="tip">0.00</span>
+
+  </div>
+  <!--totalTip end-->
+
+</div>
+<!--container end-->
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
