@@ -1,0 +1,41 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: url(https://images.unsplash.com/photo-1508161250369-a7ecbdfb67fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1{
+	margin-top: -5rem;
+	font-size: 2rem;
+}
+
+.countdown-container{
+	display: flex;
+	margin-bottom: 10rem;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.text{
+	font-size: 4rem;
+	line-height: 1.5;
+	margin: 1rem 2rem;
+}
+
+.count{
+	text-align: center;
+}
+
+.count span{
+	font-size: 1rem;
+}
