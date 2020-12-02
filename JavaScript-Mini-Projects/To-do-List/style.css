@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+}
+
+
+body{
+	background-color: #01baef;
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: top;
+
+}
+
+h1{
+	width: auto;
+	height: auto;
+	font-family: "Lobster",sans-serif;
+	margin-top: 2rem;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.container{
+	background-color: lightblue;
+	box-shadow: 0 2px 8px rgba(0,0,0,1);
+}
+
+ul{
+	padding: 0;
+	list-style: none;
+	flex-wrap: wrap;
+	align-items: left;
+}
+
+span{
+	margin-right: 20px;
+}
+
+ul li{
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+	position: relative;
+	margin-left: 10px;
+	transition: 0.3s;
+	font-family: monospace;
+	font-size: 30px;
+}
+
+ul li:hover{
+	color: white;
+
+}
+
+button#btn{
+	background-color: lime;
+	margin: 10px 10px 10px 10px;
+	color: black;
+	font-size: 25px;
+	font-family:  monospace;
+	font-weight: bold;
+	width: 100px;
+	height: 60px;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.div-input{
+	/*margin: 10px 10px 10px 10px;
+	text-align: center;*/
+}
+
+#textinput{
+	width: 500px;
+	height: 60px;
+	margin-left: 15px;
+
+}
+
+button{
+	border: 0;
+	color: red;
+	font-weight: bold;
+	font-size: 100%;
+	font-family: inherit;
+	text-align: center;
+	list-style: none;
+	background-color: lightblue;
+	margin-right: 50px;
+}
+
+.delete{
+	display: none;
+}
+
+ul input{
+	display: none;
+
+}
+
