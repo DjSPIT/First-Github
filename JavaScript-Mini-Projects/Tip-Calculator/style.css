@@ -1,0 +1,126 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: lightgreen;
+  font-weight: bold;
+
+
+}
+
+#tip-container {
+  height: 600px;
+  width: 400px;
+  margin: 50px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 2px rgba(0, 1, 0, 1);
+
+}
+
+h1 {
+  background: #2ecc71;
+  color: white;
+  margin: 0;
+  padding: 10px 100px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight:bold;
+
+}
+
+p {
+	display: flex;
+	align-items: center;
+  	padding-left: 20px;
+  	font-size: 20px;
+}
+
+form input {
+  width: 200px;
+  height: 80px auto;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#bill_value{
+  font-size: 20px;
+  background-color: #f7f7f7;
+
+  padding: 5px 5px 8px 8px;
+}
+
+#bill_value:focus {
+  background: #fff;
+  border: 3px solid blue;
+  outline: none;
+}
+
+#no_ppl {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  color: #red;
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
+ #no_ppl:focus{
+  background: #fff;
+  border: 3px solid blue;
+  outline: none;
+}
+
+
+#quality {
+  	padding: 15px 15px 15px 15px;
+  	margin-left: 10px;
+  	font-size: 18px;
+}
+
+button {
+
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin: 30px auto;
+  background:green;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+}
+
+button:hover {
+  background: green;
+}
+
+button:active { /*animation of pressing a button*/
+  position: relative;
+  top: 1px;
+}
+
+#totalTip {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+  
+  padding: 10px 10px 10px 10px;
+
+}
+
+#totalTip:before {
+  font-size: 10px;
+  font-weight: bold;
+  display: block;
+  
+ 
+}
+
+
+#totalTip span {
+display: inline;
+ font-size: 30px;
+ font-weight: bold;
+
+
+}
